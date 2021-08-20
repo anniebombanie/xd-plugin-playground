@@ -1,0 +1,26 @@
+{
+    "id": "4c85828e",
+    "name": "Hello World sample plugin",
+    "version": "0.0.1",
+    "description": "Description of your plugin.",
+    "summary": "Summary of your plugin",
+    "languages": ["en"],
+    "author": "Your Name",
+    "helpUrl": "https://mywebsite.com/help",
+    "host": {
+      "app": "XD",
+      "minVersion": "13.0"
+    },
+    "uiEntryPoints": [
+      {
+        "type": "menu",
+        "label": "Create Rectangle",
+        "commandId": "createRectangle"
+      },
+      {
+        "type": "panel",
+        "label": "Enlarge a Rectangle",
+        "panelId": "enlargeRectangle"
+      }
+    ]
+}
