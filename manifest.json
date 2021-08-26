@@ -18,9 +18,29 @@
         "commandId": "createRectangle"
       },
       {
+        "type": "menu",
+        "label": "Create lines",
+        "commandId": "createLinesCommand"
+      },
+      {
+        "type": "menu",
+        "label": "Create Pie Chart",
+        "commandId": "createPieChartCommand"
+      },
+      {
         "type": "panel",
         "label": "Enlarge a Rectangle",
         "panelId": "enlargeRectangle"
-      }
+      },
+      {
+        "type": "menu",
+        "label": "Confirmation",
+        "commandId": "showConfirm"
+      },
+      {
+        "type": "menu",
+        "label": "Export Rendition",
+        "commandId": "exportRendition"
+    }
     ]
 }
